@@ -6,4 +6,4 @@ end
 
 test = [1,2,3]
 
-square_array(test).inspect
+puts square_array(test)
