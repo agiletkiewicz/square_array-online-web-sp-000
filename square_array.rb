@@ -1,7 +1,7 @@
 def square_array(array)
   index = 0
   array.each do |number|
-    squared = number ** number
+    number ** number = squared
     array[index] = squared
     index += 1
   end
