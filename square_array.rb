@@ -1,7 +1,5 @@
 def square_array(array)
-  index = 0
-  array.each do |number|
-    array[index] = number * number
-    index += 1
+  array.collect do |number|
+    number * number
   end
 end
