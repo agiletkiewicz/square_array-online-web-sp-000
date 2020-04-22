@@ -4,4 +4,6 @@ def square_array(array)
   end
 end
 
-sqaure_array()
+test = [1,2,3]
+
+sqaure_array(test).inspect
