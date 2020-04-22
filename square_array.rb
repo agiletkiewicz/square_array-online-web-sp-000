@@ -1,5 +1,4 @@
 def square_array(array)
-  array.collect do |number|
-    number * number
+  array.collect(umber * number)
   end
 end
